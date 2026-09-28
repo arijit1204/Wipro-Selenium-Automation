@@ -65,7 +65,7 @@ This project reflects the practical application of automation skills learned dur
 
 #### Capstone Project Demo Video
 
-[Capstone Final Video](Folder%202%20-%20Capestone%20Project/Demo%20Video%20Capestone%20Project/CapstoneFinalVideo.mp4)
+[Capstone Final Video](https://drive.google.com/drive/folders/1TkU1TNh53oXxwVukK6j-3bcyeYntSyih?usp=sharing)
 
 #### Capstone Project Brief Description
 
