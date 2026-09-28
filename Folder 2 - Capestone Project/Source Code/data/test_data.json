@@ -1,0 +1,10 @@
+{
+  "first_name": "Capstone",
+  "last_name": "Tester",
+  "email_template": "capstone.tester.{stamp}@example.com",
+  "telephone": "9876543210",
+  "password": "Test@1234",
+  "search_keyword": "iPhone",
+  "product_name": "iPhone",
+  "new_quantity": 3
+}

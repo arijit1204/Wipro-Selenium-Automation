@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.5 (Python 3.13.4 on win32)" generated="2026-09-23T09:36:21.502462" rpa="false" schemaversion="5">
+<suite id="s1" name="Basic Syntax" source="C:\Users\rudra\OneDrive\Desktop\Wipro Submission\Folder 1\Module 4\Assignment 1\basic_syntax.robot">
+<test id="s1-t1" name="Open Browser And Navigate" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:21.702730" level="INFO">Opening browser 'Chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-09-23T09:36:21.702525" elapsed="3.466842"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.169760" elapsed="0.025658"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:25.211832" level="INFO">Current page contains text 'Swag Labs'.</msg>
+<arg>Swag Labs</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.195868" elapsed="0.016122"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:25.213047" level="INFO">Typing text 'standard_user' into text field 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.212364" elapsed="0.074094"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:25.287444" level="INFO">Typing text 'secret_sauce' into text field 'id=password'.</msg>
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.286833" elapsed="0.047201"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:25.338453" level="INFO">Current page contains element 'id=user-name'.</msg>
+<arg>id=user-name</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.334371" elapsed="0.004171"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2026-09-23T09:36:25.345153" level="INFO">Current page contains element 'id=password'.</msg>
+<arg>id=password</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.338876" elapsed="0.006364"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-09-23T09:36:25.345550" elapsed="2.119107"/>
+</kw>
+<status status="PASS" start="2026-09-23T09:36:21.701436" elapsed="5.763938"/>
+</test>
+<status status="PASS" start="2026-09-23T09:36:21.503603" elapsed="5.963160"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Basic Syntax" id="s1" pass="1" fail="0" skip="0">Basic Syntax</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
