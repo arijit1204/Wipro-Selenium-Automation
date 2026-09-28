@@ -15,7 +15,6 @@ capstone_project/
 |-- helpers.py              reusable functions used by main.py
 |-- requirements.txt        packages to install
 |-- README.md               this file
-|-- video_script.txt        line-by-line explanation script for the video
 |-- data/
 |   |-- test_data.json      test data (JSON version)
 |   `-- test_data.xlsx      same test data (Excel version, sheet "TestData")
